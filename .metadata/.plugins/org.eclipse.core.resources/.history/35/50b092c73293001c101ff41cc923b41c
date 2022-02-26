@@ -1,0 +1,20 @@
+package com.rerun;
+
+import org.testng.IRetryAnalyzer;
+import org.testng.ITestResult;
+
+public class IRetryAnalyzerFailed implements IRetryAnalyzer{
+
+	public boolean retry(ITestResult result) {
+		
+		int min=0, max=2;
+		if(min<max)
+		{
+			System.out.println("Retry");
+			min++;
+			return true;
+		}
+		return false;
+	}
+
+}

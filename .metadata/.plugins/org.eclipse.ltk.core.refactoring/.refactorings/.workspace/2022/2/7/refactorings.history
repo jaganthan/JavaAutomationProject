@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;FrameworkParameter&apos;" deleteContents="false" description="Delete resource &apos;FrameworkParameter&apos;" element1="/FrameworkParameter" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1644996494776"/>
+</session>

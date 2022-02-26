@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="multiGroupingClass">
+	<test name="yearDeatils">
+		<groups>
+			<run>
+				<include name="smoke"/>
+				<include name="sanity"/>
+			</run>
+		</groups>
+		
+		<classes>
+			<class name = "com.multipleclassgrouping.getdetails"/>
+			<class name = "com.multipleclassgrouping.getDay"/>
+			<class name = "com.multipleclassgrouping.getMonths"/>
+			<class name = "com.multipleclassgrouping.getTime"/>
+		</classes>
+	</test>
+</suite>

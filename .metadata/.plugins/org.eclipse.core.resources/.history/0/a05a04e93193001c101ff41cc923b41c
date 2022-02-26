@@ -1,0 +1,7 @@
+package com.rerun;
+
+import org.testng.IRetryAnalyzer;
+
+public class IRetryAnalyzerFailed implements IRetryAnalyzer{
+
+}

@@ -1,0 +1,39 @@
+package com.rerun;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+import org.testng.util.RetryAnalyzerCount;
+
+public class ReRunMain {
+	@Test
+	public void tc1()
+	{
+		System.out.println("Test 1");
+	}
+	
+	@Test
+	public void tc2()
+	{
+		System.out.println("Test 2");
+	}
+	
+	@Test
+	public void tc3(retryAnalyzer=IRetryAnalyzerFailed.class)
+	{
+		Assert.assertTrue(false);
+		System.out.println("Test 3");
+	}
+	
+	@Test
+	public void tc4()
+	{
+		System.out.println("Test 4");
+	}
+	
+	@Test
+	public void tc5()
+	{
+		Assert.assertTrue(false);
+		System.out.println("Test 5");
+	}
+}
